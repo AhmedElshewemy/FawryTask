@@ -1,0 +1,16 @@
+{
+  "name": "Debian Dev",
+ "image": "debian:bookworm-slim",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.terminal",          // optional
+        "vscjava.vscode-java-pack" // adds IntelliSense, debugger, etc.
+      ]
+    }
+  }, 
+  "workspaceFolder": "/workspace",
+  "remoteUser": "root"
+}
+// sudo apt update
+//sudo apt install default-jdk
